@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  position: relative;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+
+h1{color: #fff;
+  text-align: center;
+  top: 2rem;
+
+  position: absolute;
+ font-family: 'Sacramento', cursive;
+ font-size: 400%;
+z-index: 100;
+}
